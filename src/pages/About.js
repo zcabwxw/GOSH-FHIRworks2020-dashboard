@@ -2,16 +2,16 @@ import React, {Component} from "react";
 import {Layout} from "antd";
 const {Content} = Layout;
 
-class Home extends Component{
+class About extends Component{
     render(){
 
         return(
             <Content>
-                Home
+                Statistics
             </Content>
         )
     }
 
 }
 
-export default Home;
+export default About;

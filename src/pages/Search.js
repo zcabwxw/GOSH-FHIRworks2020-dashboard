@@ -1,17 +1,18 @@
 import React, {Component} from "react";
 import {Layout} from "antd";
+
 const {Content} = Layout;
 
-class Home extends Component{
+class Search extends Component{
     render(){
 
         return(
             <Content>
-                Home
+                Search
             </Content>
         )
     }
 
 }
 
-export default Home;
+export default Search;

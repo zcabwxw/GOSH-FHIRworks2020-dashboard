@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import PatientCard from "../components/PatientCard";
 import {Layout} from "antd";
 
-
 const {Content} = Layout;
 
 
@@ -14,11 +13,12 @@ class PatientList extends Component{
             job:"doctor"
         };
 
+
         return (
             <Content>
-                <PatientCard patientData={patientExample}>
-                </PatientCard>
+                <PatientCard patientData={patientExample}></PatientCard>
             </Content>
+
         );
     }
 }
