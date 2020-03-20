@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import App from "./App.js"
+
 
 class Web extends Component{
     constructor(props) {
@@ -9,7 +11,7 @@ class Web extends Component{
     render(){
         return(
             <div>
-                <App />;
+                <App />
             </div>
         )
     }
