@@ -8,7 +8,7 @@ const {Content} = Layout;
 class PatientList extends Component{
 
     render(){
-        const patientExample = {
+        const patient1 = {
             name:"Charlie",
             job:"doctor"
         };
@@ -16,7 +16,8 @@ class PatientList extends Component{
 
         return (
             <Content>
-                <PatientCard patientData={patientExample}></PatientCard>
+                <PatientCard patientData={patient1}></PatientCard>
+
             </Content>
 
         );

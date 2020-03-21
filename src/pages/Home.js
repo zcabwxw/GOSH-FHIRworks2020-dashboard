@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Layout} from "antd";
+import background from "../img/background.jpg";
 const {Content} = Layout;
 
 class Home extends Component{
@@ -7,7 +8,8 @@ class Home extends Component{
 
         return(
             <Content>
-                Home
+                <h1>FHIR Dashboard</h1>
+                <img src={background} />
             </Content>
         )
     }
